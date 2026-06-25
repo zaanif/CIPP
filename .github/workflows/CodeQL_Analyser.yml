@@ -1,10 +1,6 @@
 ---
 name: "CodeQL"
 on:
-  pull_request:
-    branches: [master, main, dev, react]
-  schedule:
-    - cron: "26 17 * * 0"
 jobs:
   analyze:
     if: github.repository_owner == 'KelvinTegelaar'
